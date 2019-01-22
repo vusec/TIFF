@@ -1,13 +1,4 @@
-# README #
 
-Modified version of howard. It keeps track of taint via file and thus is able to identify structures present in the file, particularly arrays and primary data types.
-
-### INSTALLATION ###
-Follow these steps to install howard
-
-* First setup your PIN_HOME environment variable to top directory of pin using this command. ``export PIN_HOME=$PWD`` . Here it assumes that you are present at top directory of pin
-* Next step go to tools directory present in the top directory of this repo and run command ``./clean`` and then ``./make.sh``.
-* Now you are ready to run howard.
 
 ### Installation ###
 
