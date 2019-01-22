@@ -19,7 +19,6 @@ fuzzer-code/inter
 fuzzer-code/special
 fuzzer-code/keep
 fuzzer-code/idafiles
-fuzzer-code/datatemp
 fuzzer-code/crash.bin
 fuzzer-code/idafiles
 fuzzer-code/image.offset
