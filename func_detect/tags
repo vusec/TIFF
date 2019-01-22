@@ -1,0 +1,108 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HLIST_HEAD	list.h	389;"	d
+HLIST_HEAD_INIT	list.h	388;"	d
+INIT_HLIST_HEAD	list.h	390;"	d
+INIT_HLIST_NODE	list.h	391;"	d
+INIT_LIST_HEAD	list.h	76;"	d
+LIST_HEAD	list.h	73;"	d
+LIST_HEAD_INIT	list.h	71;"	d
+LIST_POISON1	list.h	53;"	d
+LIST_POISON2	list.h	54;"	d
+OBJS	Makefile	/^OBJS		= func_detect.o$/;"	m
+PTR_LENGTH	func_detect.cpp	40;"	d	file:
+SOBJS	Makefile	/^SOBJS		= $(OBJS:.o=.so)$/;"	m
+Usage	func_detect.cpp	/^INT32 Usage()$/;"	f
+_LINUX_LIST_H	list.h	19;"	d
+__hlist_del	list.h	/^static inline void __hlist_del(struct hlist_node *n)$/;"	f
+__list_add	list.h	/^static inline void __list_add(struct list_head *node,$/;"	f
+__list_del	list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__list_for_each	list.h	263;"	d
+__list_splice	list.h	/^static inline void __list_splice(struct list_head *list,$/;"	f
+_offsetof	list.h	31;"	d
+bbs	loop_detect.py	/^	bbs = list();$/;"	v
+bbs_raw	loop_detect.py	/^	bbs_raw = d[i].split("\\n")[0].split(",");$/;"	v
+blockstack	func_detect.cpp	/^	list_head_t blockstack;$/;"	m	struct:__anon1	file:
+body	loop_detect.py	/^	body = loop_dict[loop_top][0];$/;"	v
+body_dict	loop_detect.py	/^body_dict = dict();$/;"	v
+callsite	func_detect.cpp	/^	ADDRINT callsite;$/;"	m	struct:__anon1	file:
+callstack	func_detect.cpp	/^	list_head_t callstack;$/;"	m	struct:__anon1	file:
+container_of	list.h	40;"	d
+d	loop_detect.py	/^d = f.readlines();$/;"	v
+f	loop_detect.py	/^f = open(".\/func_entry.log","w");$/;"	v
+f	loop_detect.py	/^f = open(".\/func_exit.log","w");$/;"	v
+f	loop_detect.py	/^f = open(".\/loop_trace.log","w");$/;"	v
+f	loop_detect.py	/^f = open(sys.argv[1],"r");$/;"	v
+fileLock	func_detect.cpp	/^PIN_MUTEX fileLock;$/;"	v
+find_loop	loop_detect.py	/^def find_loop(seq, loop_dict):$/;"	f
+finish	func_detect.cpp	/^VOID finish(INT32 code, VOID *v)$/;"	f
+first	list.h	/^	struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node
+func	loop_detect.py	/^	func = d[i].split("Function :")[1];$/;"	v
+func_entry	loop_detect.py	/^func_entry = set();$/;"	v
+func_exit	loop_detect.py	/^func_exit = set();$/;"	v
+hlist_add_after	list.h	/^static inline void hlist_add_after(struct hlist_node *n,$/;"	f
+hlist_add_before	list.h	/^static inline void hlist_add_before(struct hlist_node *n,$/;"	f
+hlist_add_head	list.h	/^static inline void hlist_add_head(struct hlist_node *n, struct hlist_head *h)$/;"	f
+hlist_del	list.h	/^static inline void hlist_del(struct hlist_node *n)$/;"	f
+hlist_del_init	list.h	/^static inline void hlist_del_init(struct hlist_node *n)$/;"	f
+hlist_empty	list.h	/^static inline int hlist_empty(const struct hlist_head *h)$/;"	f
+hlist_entry	list.h	463;"	d
+hlist_for_each	list.h	465;"	d
+hlist_for_each_entry	list.h	480;"	d
+hlist_for_each_entry_continue	list.h	492;"	d
+hlist_for_each_entry_from	list.h	504;"	d
+hlist_for_each_entry_safe	list.h	517;"	d
+hlist_for_each_safe	list.h	469;"	d
+hlist_head	list.h	/^struct hlist_head {$/;"	s
+hlist_node	list.h	/^struct hlist_node {$/;"	s
+hlist_unhashed	list.h	/^static inline int hlist_unhashed(const struct hlist_node *h)$/;"	f
+i	loop_detect.py	/^i = 0;$/;"	v
+inc_x	program.c	/^void *inc_x(void *x_void_ptr)$/;"	f
+ip	func_detect.cpp	/^	ADDRINT ip;$/;"	m	struct:__anon1	file:
+isFunc	func_detect.cpp	/^	BOOL isFunc;$/;"	m	struct:__anon1	file:
+list_add	list.h	/^static inline void list_add(struct list_head *node, struct list_head *head)$/;"	f
+list_add_tail	list.h	/^static inline void list_add_tail(struct list_head *node, struct list_head *head)$/;"	f
+list_del	list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_del_init	list.h	/^static inline void list_del_init(struct list_head *entry)$/;"	f
+list_empty	list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_entry	list.h	240;"	d
+list_for_each	list.h	249;"	d
+list_for_each_entry	list.h	291;"	d
+list_for_each_entry_continue	list.h	324;"	d
+list_for_each_entry_reverse	list.h	302;"	d
+list_for_each_entry_safe	list.h	336;"	d
+list_for_each_entry_safe_continue	list.h	350;"	d
+list_for_each_entry_safe_reverse	list.h	364;"	d
+list_for_each_prev	list.h	271;"	d
+list_for_each_safe	list.h	281;"	d
+list_head	list.h	/^struct list_head {$/;"	s
+list_head_t	list.h	/^typedef struct list_head list_head_t;$/;"	t	typeref:struct:list_head
+list_move	list.h	/^static inline void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	list.h	/^static inline void list_move_tail(struct list_head *list,$/;"	f
+list_prepare_entry	list.h	314;"	d
+list_splice	list.h	/^static inline void list_splice(struct list_head *list, struct list_head *head)$/;"	f
+list_splice_init	list.h	/^static inline void list_splice_init(struct list_head *list,$/;"	f
+loop_dict	loop_detect.py	/^loop_dict = dict();$/;"	v
+main	func_detect.cpp	/^int main(int argc, char * argv[])$/;"	f
+main	program.c	/^int main()$/;"	f
+next	list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node
+next	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+pfile	func_detect.cpp	/^FILE *pfile;$/;"	v
+pop_callstack	func_detect.cpp	/^pop_callstack(THREADID tid, ADDRINT ip, ADDRINT sp, ADDRINT retsite)$/;"	f	file:
+pprev	list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::
+prev	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+push_blockstack	func_detect.cpp	/^push_blockstack(THREADID tid, ADDRINT ip)$/;"	f	file:
+push_callstack	func_detect.cpp	/^push_callstack(THREADID tid, ADDRINT ip, ADDRINT sp, ADDRINT callsite)$/;"	f	file:
+rt_blockstack	func_detect.cpp	/^	list_head_t rt_blockstack;$/;"	m	struct:__anon2	file:
+rt_callstack	func_detect.cpp	/^	list_head_t rt_callstack;$/;"	m	struct:__anon2	file:
+rt_ctx_t	func_detect.cpp	/^}rt_ctx_t;$/;"	t	typeref:struct:__anon1	file:
+sp	func_detect.cpp	/^	ADDRINT sp;$/;"	m	struct:__anon1	file:
+ssplit	loop_detect.py	/^def ssplit(seq,splitters):$/;"	f
+subbody	loop_detect.py	/^	subbody = set();$/;"	v
+thread_ctx_t	func_detect.cpp	/^}thread_ctx_t;$/;"	t	typeref:struct:__anon2	file:
+threads_ctx	func_detect.cpp	/^thread_ctx_t threads_ctx[100];$/;"	v
+trace_inspect	func_detect.cpp	/^trace_inspect(TRACE trace, VOID *v)$/;"	f	file:

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rm -rf howard *.log *.json reward.taint *.out file.taint id_struct
