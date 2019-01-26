@@ -17,7 +17,9 @@
 * sudo mount -t tmpfs -o size=1024M tmpfs vutemp
 
 ## Running Fuzzer ##
-
+* runfuzzer.py [-h] -s SUT -i INPUTD -w WEIGHT -n NAME [-l LIBNUM] -o
+                    OFFSETS [-b LIBNAME]
+For example, if we want to fuzz 'uniq' binary, following is the command:
 * python runfuzzer.py -s "<path_to_uniq_binary> %s" -i datatemp/uniq/ -w idafiles/uniq.pkl -n idafiles/uniq.names -l 1 -o "0x0000000000000000"
 
 ## Further information ##
