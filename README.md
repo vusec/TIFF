@@ -25,3 +25,5 @@ For example, if we want to fuzz 'uniq' binary, following is the command:
 ## Further information ##
 1. Check out README-dataSet.md to know more about the dataset used in evaluating TIFF and setting of configuration parameters.
 2. Check out (historic) wikiHOWTO.md to know more information about various parameters that have some impact on the fuzzer's performance.  
+## Important Note ##
+The code is not cleaned properly yet, but it works! We will clean it in the near future. Currently, one of the lead authors is relocating to another country and other is engaged in his new job. As a result, we'll not be in a position to address issues immediately, but we'll try our best to work on them when time permits. Please don't shoot us!
